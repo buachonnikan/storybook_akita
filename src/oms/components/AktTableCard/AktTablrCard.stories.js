@@ -11,17 +11,16 @@ stories.addDecorator(withInfo).addDecorator(withKnobs)
 stories.add('Table Card', () => ({
   components: { AktTableCard },
   props: {
-    text1: {
-      default: text('text1', 'text1')
+    label: {
+      default: text('label', 'Label')
     },
-    text2: {
-      default: text('text2', 'text2')
+    text: {
+      default: text('text', 'text')
     }
   },
   template: `
       <akt-table-card :label="label">
-        <div style="width:200px; height:40px; border:1px solid gray">{{text1}}</div>
-        <div style="width:200px; height:40px; border:1px solid gray">{{text2}}</div>
+        {{text}}
       </akt-table-card>`,
   propsDescription: {
     AktTableCard: {

@@ -158,16 +158,16 @@
 </template>
 
 <script>
-// import moment from 'moment'
+import moment from 'moment'
 
 export default {
   name: 'AktReceipt',
   filters: {
     date (value) {
-      // return moment(value).format('DD/MM/YY')
+      return moment(value).format('DD/MM/YY')
     },
     time (value) {
-      // return moment(value).format('HH:MM')
+      return moment(value).format('HH:MM')
     }
   },
   props: {

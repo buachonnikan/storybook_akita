@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/vue'
-import { withKnobs, text, boolean } from '@storybook/addon-knobs'
+import { withKnobs, text, boolean, array } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
 import AktInputTag from './AktInputTag.vue'
@@ -16,8 +16,10 @@ stories.add('Input Tag', () => ({
     },
     required: {
       defualt: boolean('required', false)
+    },
+    tag: {
+      default: array('tags', ['tag1', 'tag2', 'tag3', 'tag4'])
     }
-
   },
   template: `
     <akt-input-tag
@@ -27,7 +29,7 @@ stories.add('Input Tag', () => ({
   `,
   data () {
     return {
-      tag: ['tag1', 'tag2', 'tag3', 'tag4']
+      // tag: ['tag1', 'tag2', 'tag3', 'tag4']
     }
   },
   propsDescription: {
