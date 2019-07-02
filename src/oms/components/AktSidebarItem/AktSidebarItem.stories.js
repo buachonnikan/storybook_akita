@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/vue'
 import { withKnobs, object } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
+import VueI18n from 'vue-i18n'
 
 import AktSidebarItem from './AktSidebarItem.vue'
 
@@ -20,13 +21,12 @@ stories.add('Sidebar Item', () => ({
       default: object('link', link)
     }
   },
-  template: `<akt-sidebar-item
+  template: `<akt-sidebar-item :link="link"
   ></akt-sidebar-item>`,
   propsDescription: {
-    AktSidebarItem: {
-
-    }
-  }
+    AktSidebarItem: {}
+  },
+  i18n: new VueI18n({})
 }),
 {
   info: {

@@ -17,9 +17,9 @@ stories.add('Input', () => ({
     rounded: {
       default: boolean('rounded', false)
     },
-    // value: {
-    //   default: text('value(prop)', 'value')
-    // },
+    value: {
+      default: text('value(prop)', 'value')
+    },
     height: {
       default: number('height', 36)
     },
@@ -32,18 +32,12 @@ stories.add('Input', () => ({
   },
   template: `
     <akt-input
-      v-model="aktModel"
       :label="label" :disabled="disabled"
       :rounded="rounded" :value="value"
       :height="height"
     >
     </akt-input>
   `,
-  data () {
-    return {
-      aktModel: 'test'
-    }
-  },
   propsDescription: {
     AktInput: {
       valid: 'Whether is valid',
