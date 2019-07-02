@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/fonts/sarabun-bold-webfont.woff2') format('woff2'),
+       url('/fonts/sarabun-bold-webfont.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/fonts/sarabun-extralight-webfont.woff2') format('woff2'),
+       url('/fonts/sarabun-extralight-webfont.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('/fonts/sarabun-regular-webfont.woff2') format('woff2'),
+       url('/fonts/sarabun-regular-webfont.woff') format('woff');
+  font-weight: normal;
+}

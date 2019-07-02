@@ -1,0 +1,79 @@
+/*
+  Atomic will be created here
+*/
+
+/* For example, it should be deleted later */
+._bg-cl {
+  &-green {
+    background-color: green;
+  }
+  &-transparent {
+    background-color: transparent;
+  }
+}
+
+._b-sd-none {
+  box-shadow: none;
+}
+
+._mw-initial {
+  max-width: initial;
+}
+
+._fs {
+  &-10 {
+    font-size: 0.625rem;
+  }
+  &-12 {
+    font-size: 0.75rem;
+  }
+  &-14 {
+    font-size: 0.875rem;
+  }
+  &-16 {
+    font-size: 1rem;
+  }
+  &-18 {
+    font-size: 1.125rem;
+  }
+}
+
+._py-5 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+}
+
+._cs {
+  &-pointer {
+    cursor: pointer;
+  }
+  &-default {
+    cursor: default;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  ._text-md-white {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+._border {
+  &-width-1 {
+    border-width: 0.0625rem !important;
+  }
+  &-width-2 {
+    border-width: 0.125rem !important;
+  }
+}
+
+._required:after{
+  content:"*";
+  color: $danger;
+}
+
+._cs {
+  &-pointer {
+    cursor: pointer;
+  }
+}
