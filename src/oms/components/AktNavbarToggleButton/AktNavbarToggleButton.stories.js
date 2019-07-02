@@ -14,17 +14,18 @@ stories.add('Navbar Toggle Button', () => ({
     target: {
       default: text('target', 'target')
     },
-    toggle: {
-      default: boolean('toggle', false)
+    toggled: {
+      default: boolean('toggled', false)
     }
   },
   template: `
     <akt-navbar-toggle-button
-    :target="target" :toggle="toggle">
+    :target="target" :toggled="test" style="border:2px solid black">
     </akt-navbar-toggle-button>
   `,
   data () {
     return {
+      test: true
     }
   },
   propsDescription: {

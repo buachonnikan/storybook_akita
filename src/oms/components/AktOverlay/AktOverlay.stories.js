@@ -15,8 +15,8 @@ stories.add('Overlay', () => ({
       default: boolean('isLoading', false)
     }
   },
-  template: `<akt-overlay :isLoading="isLoading"
-        style="width:300px; height:200px;">
+  template: `<akt-overlay :isLoading="isLoading" style="width:400px; height:300px;">
+            <div style="text-align:center; color:white;">Test</div>
         </akt-overlay>`,
   propsDescription: {
     AktOverlay: {
