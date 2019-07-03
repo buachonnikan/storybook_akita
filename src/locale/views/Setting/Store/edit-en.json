@@ -1,0 +1,29 @@
+{
+  "title": "Store",
+  "form": {
+    "name": "Store name",
+    "address": "Address",
+    "subDistrict": "Tambon / Sub district",
+    "district": "Amphoe / District",
+    "stateProvince": "State province",
+    "postcode": "Postcode",
+    "tel": "Tel",
+    "vatIncluded" : "Vat included"
+  },
+  "placeholder": "Enter {field}",
+  "placeholderAddress": "Enter address (Building name, Number, Street, Lane)",
+  "error": "Please enter {field}",
+  "button": {
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "alert": {
+    "title": {
+      "success": "Save data successfully",
+      "error": "Failed to save data"
+    },
+    "button": {
+      "OK": "OK"
+    }
+  }
+}

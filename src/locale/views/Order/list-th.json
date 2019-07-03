@@ -1,0 +1,26 @@
+{
+  "title": "ออเดอร์",
+  "orderColumn": {
+    "new": "ออเดอร์ใหม่",
+    "prepareShipment": "เตรียมจัดส่ง",
+    "sent": "ส่งแล้ว",
+    "closed": "ปิดออเดอร์"
+  },
+  "show": "แสดง",
+  "list": "รายการ",
+  "pagination": "แสดง {first} - {last} จาก {total} รายการ",
+  "alert": {
+    "edit": {
+      "cancel": {
+        "title": "ยืนยันการยกเลิกออเดอร์",
+        "text": "ต้องการยืนยันที่จะยกเลิกออเดอร์ <span class=\"text-primary\">{orderNo}</span> หรือไม่?"
+      },
+      "void": {
+        "title": "ยืนยันการ Void ออเดอร์",
+        "text": "ต้องการยืนยันที่จะ Void ออเดอร์ <span class=\"text-primary\">{orderNo}</span> หรือไม่?"
+      }
+    },
+    "confirm": "ยืนยัน",
+    "cancel": "ยกเลิก"
+  }
+}

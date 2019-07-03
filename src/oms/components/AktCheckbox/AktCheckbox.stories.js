@@ -32,10 +32,21 @@ stories.add('Checkbox', () => ({
       test: true
     }
   },
-  template: `<akt-checkbox :checked="checked"
+  template: `<akt-checkbox
+    name="check"
+    :checked="checked"
     :disabled="disabled"
-    :inline="inline" :label="label"
-    >{{text}}</akt-checkbox>`,
+    :inline="inline"
+    :label="label"
+    @change="check"
+    >{{text}}
+    </akt-checkbox>`,
+  methods: {
+    check (check) {
+      this.checked = check
+      console.log(check)
+    }
+  },
   propsDescription: {
     AktCheckbox: {
 

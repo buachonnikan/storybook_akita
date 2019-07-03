@@ -1,0 +1,31 @@
+{
+  "title": "จัดการผู้ใช้งาน",
+  "addUser": "เพิ่มผู้ใช้งาน",
+  "permission": {
+    "admin": "Admin",
+    "cashier": "แคชเชียร์"
+  },
+  "createInviteUrl": "สร้างลิงค์คำเชิญ",
+  "invitation": "คำเชิญผู้ใช้งาน",
+  "user": "ผู้ใช้งาน",
+  "searchUserPlaceholder": "ค้นหา Admin",
+  "pagination": "แสดง {first} - {last} จาก {total} รายการ",
+  "alert": {
+    "delete": {
+      "invitation": {
+        "title": "ยืนยันการลบคำเชิญ",
+        "text": "ต้องการยืนยันที่จะลบคำเชิญนี้หรือไม่?",
+        "successTitle": "บันทึกข้อมูลสำเร็จ",
+        "successText": "ลบข้อมูลคำเชิญนี้เรียบร้อยแล้ว"
+      },
+      "userStore": {
+        "title": "ยืนยันการลบผู้ใช้งาน",
+        "text": "ต้องการยืนยันที่จะลบผู้ใช้งาน {name} หรือไม่?",
+        "successTitle": "บันทึกข้อมูลสำเร็จ",
+        "successText": "ลบข้อมูลผู้ใช้นี้เรียบร้อยแล้ว"
+      }
+    },
+    "confirm": "ยืนยัน",
+    "cancel": "ยกเลิก"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "column": {
+    "orderNo": "Order No.",
+    "channel": "Channel",
+    "prepareShipmentAt": "Prepare At",
+    "customerAddressName": "Name - Address",
+    "shippingNo": "Shipping No.",
+    "warehouse": "Warehouse",
+    "state": "State"
+  },
+  "action": {
+    "detail": "Detail",
+    "cancel": "Cancel",
+    "void": "Void",
+    "shipment": "Shipment",
+    "close": "Close"
+  }
+}

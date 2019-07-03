@@ -1,0 +1,20 @@
+{
+  "title": "Product list",
+  "addProduct": "Add new product",
+  "pagination": "Represent {first} - {last} from {total} items",
+  "alert": {
+    "title": {
+      "success": "Change the status successful",
+      "error": "Failed to change status",
+      "confirmDelete": "Confirm delete product"
+    },
+    "text": {
+      "confirmDelete": "Want to delete the product ?"
+    },
+    "button": {
+      "buttonOK": "OK",
+      "buttonConfirm": "Confirm",
+      "buttonCancel": "Cancel"
+    }
+  }
+}

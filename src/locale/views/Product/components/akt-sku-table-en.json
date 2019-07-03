@@ -1,0 +1,13 @@
+{
+  "title": "Setting Product SKU",
+  "columns": {
+    "status": "Status",
+    "variantOption": "Variant Option",
+    "code": "Code",
+    "cost": "Cost",
+    "price": "Price",
+    "excludeVat": "Exclude Vat",
+    "barcode": "Barcode"
+  },
+  "addSku": "Add new SKU"
+}

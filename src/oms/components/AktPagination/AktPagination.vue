@@ -58,7 +58,7 @@ export default {
     },
     perPage: {
       type: Number,
-      default: 10,
+      default: 100,
       description:
         'Pagination per page. Should be specified with total or pageCount'
     },
@@ -91,7 +91,7 @@ export default {
   },
   computed: {
     totalPages () {
-      if (this.pageCount > 0) return this.pageCount
+      // if (this.pageCount > 0) return this.pageCount
       if (this.total > 0) {
         return Math.ceil(this.total / this.perPage)
       }

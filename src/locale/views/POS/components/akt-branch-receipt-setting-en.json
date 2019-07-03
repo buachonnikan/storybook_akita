@@ -1,0 +1,8 @@
+{
+  "title": "Receipt Setting",
+  "addPhoto": "+ Add photo",
+  "headerPhoto": "Header photo",
+  "footerPhoto": "Footer photo",
+  "receiptText": "Receipt footer text",
+  "receiptTextPlaceholder": "Please type, receipt footer text"
+}

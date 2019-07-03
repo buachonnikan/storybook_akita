@@ -17,14 +17,11 @@ const options = {
 stories.add('Pagination Basic', () => ({
   components: { AktPagination },
   props: {
-    pageCount: {
-      default: number('pageCount', 10)
-    },
     perPage: {
-      defualt: number('perPage', 1)
+      default: number('perPage', 100)
     },
     total: {
-      default: number('total', 10)
+      default: number('total', 100)
     },
     value: {
       default: number('value', 1)
@@ -34,10 +31,18 @@ stories.add('Pagination Basic', () => ({
     }
   },
   template: `<akt-pagination
-    :pageCount="pageCount"
-    :perPage="perPage" :total="total"
-    :value="value" :size="size" :align="align"
+    :value="value"
+    :perPage="perPage"
+    :total="total"
+    @input="onChangePage"
+    :align="align"
     ></akt-pagination>`,
+  methods: {
+    onChangePage (page) {
+      this.value = page
+      console.log(page)
+    }
+  },
   propsDescription: {
     AktPagination: {
       pageCount: 'Pagination page count. This should be specified in combination with perPage',

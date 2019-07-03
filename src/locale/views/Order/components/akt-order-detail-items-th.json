@@ -1,0 +1,16 @@
+{
+  "orderNo": "รหัสออเดอร์",
+  "createdAt": "สร้าง",
+  "updatedAt": "อัปเดตล่าสุด",
+  "channel": "ออเดอร์จาก",
+  "no": "No.",
+  "product": "สินค้า",
+  "quantity": "จำนวน",
+  "price": "ราคา",
+  "total": "ยอดรวม",
+  "shippingCharge": "ค่าส่ง",
+  "discount": "ส่วนลด",
+  "vat": "VAT",
+  "included": "Included",
+  "net": "ราคาสุทธิ"
+}

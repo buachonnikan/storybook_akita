@@ -1,0 +1,13 @@
+{
+  "title": "Set up POS Branch / Receipt",
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "alert": {
+    "success": "Success",
+    "createSuccessText": "You have created receipt information for {name}",
+    "editSuccessText": "You have updated receipt information for {name}",
+    "error": "Failed",
+    "errorText": "Something went wrong",
+    "button": "Accept"
+  }
+}

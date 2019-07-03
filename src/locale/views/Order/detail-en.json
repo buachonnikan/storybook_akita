@@ -1,0 +1,9 @@
+{
+  "title": "Order Detail",
+  "submit": "Finish",
+  "state": {
+    "new": "Pending",
+    "ready_to_fulfillment": "Preparing",
+    "shipped": "Delivered"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "header": "Setting a cashier",
+  "save": "Save",
+  "cancle": "Cancle",
+  "titleCreate": "Add cashier",
+  "titleEdit": "Edit cashier",
+  "form": {
+    "cashier": "Cashier",
+    "placeholderCashier": "Please select a cashier",
+    "firstName": "Name",
+    "lastName": "Surname",
+    "email": "Email",
+    "branch": "Branch",
+    "placeholderBranch": "Select a branch",
+    "addBranch": "Add branch"
+  },
+  "error": {
+    "cashier": "Please select a cashier",
+    "branch": "Please select a branch"
+  },
+  "alert": {
+    "success": "Save data successfully",
+    "error": "Failed to save data",
+    "button": "OK"
+  }
+}

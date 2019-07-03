@@ -1,0 +1,12 @@
+{
+  "title": "Information",
+  "form": {
+    "name": "Product name",
+    "code": "Code",
+    "description": "Product description"
+  },
+  "error": {
+    "name": "The product name field is required",
+    "code": "The code field is required"
+  }
+}

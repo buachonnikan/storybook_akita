@@ -1,0 +1,8 @@
+{
+  "column": {
+    "branchNo": "Branch No.",
+    "branch": "Branch",
+    "warehouse": "Warehouse",
+    "action": "Action"
+  }
+}

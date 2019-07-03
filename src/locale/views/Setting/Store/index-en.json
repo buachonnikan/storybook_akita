@@ -1,0 +1,18 @@
+{
+  "title": "Store",
+  "form": {
+    "storeName": "Store name",
+    "addressShipment": "Address to use in the shipment",
+    "address": "Address",
+    "vatIncluded" : "Vat included",
+    "isBkk": {
+      "subDistrict": "",
+      "district": ""
+    },
+    "isNotBkk": {
+      "subDistrict": "Tambon",
+      "district": "Amphoe"
+    },
+    "stateProvince": ""
+  }
+}

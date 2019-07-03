@@ -1,0 +1,8 @@
+{
+  "column": {
+    "unit": "POS detail",
+    "branch": "Branch",
+    "warehouse": "Warehouse",
+    "action": "Action"
+  }
+}

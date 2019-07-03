@@ -1,0 +1,26 @@
+{
+  "column": {
+    "orderNo": "Order No",
+    "channel": "Channel",
+    "sellDate": "Date",
+    "customerName": "Customer Detail",
+    "warehouse": "Warehouse",
+    "shippingName": "Shipping Type",
+    "net": "Net",
+    "state": "State"
+  },
+  "status": {
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "paid": "Paid",
+    "cancel": "Cancel",
+    "void": "Void"
+  },
+  "action": {
+    "detail": "Detail",
+    "cancel": "Cancel",
+    "void": "Void",
+    "shipment": "Prepare Shipment",
+    "close": "Close"
+  }
+}

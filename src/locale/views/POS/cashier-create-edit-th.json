@@ -1,0 +1,26 @@
+{
+  "header": "ตั้งค่าแคชเชียร์",
+  "save": "บันทึก",
+  "cancle": "ยกเลิก",
+  "titleCreate": "เพิ่มแคชเชียร์",
+  "titleEdit": "แก้ไขแคชเชียร์",
+  "form": {
+    "cashier": "แคชเชียร์",
+    "placeholderCashier": "กรุณาเลือกแคชเชียร์",
+    "firstName": "ชื่อ",
+    "lastName": "นามสกุล",
+    "email": "อีเมล",
+    "branch": "สาขา",
+    "placeholderBranch": "เลือกสาขา",
+    "addBranch": "เพิ่มสาขา"
+  },
+  "error": {
+    "cashier": "กรุณาเลือกแคชเชียร์",
+    "branch": "กรุณาเลือกสาขา"
+  },
+  "alert": {
+    "success": "บันทึกข้อมูลสำเร็จ",
+    "error": "บันทึกข้อมูลไม่สำเร็จ",
+    "button": "ตกลง"
+  }
+}

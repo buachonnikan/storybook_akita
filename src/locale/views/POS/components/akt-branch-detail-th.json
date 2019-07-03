@@ -1,0 +1,21 @@
+{
+  "title": "ตั้งค่าสาขา",
+  "subtitle": "ข้อมูลสาขาจะไปแสดงบนใบเสร็จ",
+  "form": {
+    "branchNo": "Branch No.",
+    "branchNoPlaceholder": "ระบุ เลขที่สาขา",
+    "branchNoErrorMessage": "กรุณาระบุ เลขที่สาขา",
+    "name": "ชื่อสาขา",
+    "taxNo": "Tax ID",
+    "warehouse": "ตัดสินค้าจากคลัง",
+    "warehousePlaceholder": "เลือกคลังสินค้า",
+    "address": "ที่อยู่",
+    "addressPlaceholder": "ระบุ บ้านเลขที่ , ซอย , ถนน , อาคาร ฯ",
+    "subDistrict": "แขวง / ตำบล",
+    "district": "เขต / อำเภอ",
+    "stateProvince": "จังหวัด",
+    "postcode": "รหัสไปรษณีย์",
+    "placeholder": "ระบุ {field}",
+    "errorMessage": "กรุณาระบุ {field}"
+  }
+}

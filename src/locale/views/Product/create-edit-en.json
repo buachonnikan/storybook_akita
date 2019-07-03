@@ -1,0 +1,31 @@
+{
+  "titleCreate": "Add new product",
+  "titleEdit": "Edit product",
+  "submitProduct": "Submit product",
+  "cancelProduct": "Cancel",
+  "error": {
+    "variants": "Variant cannot be blank or duplicate",
+    "tags": "Tags must not be empty or duplicate"
+  },
+  "alert": {
+    "title": {
+      "success": "Save data successfully",
+      "error": "Failed to save data",
+      "warning": {
+        "category": "Please select a product category",
+        "confirmCancle": "Confirm cancel editing the item"
+      }
+    },
+    "text": {
+      "success": "Save product data succeed",
+      "warning": {
+        "confirmCancle": "Confirm to discard the product or not ?"
+      }
+    },
+    "button": {
+      "OK": "OK",
+      "Confirm": "Confirm",
+      "Cancel": "Cancel"
+    }
+  }
+}

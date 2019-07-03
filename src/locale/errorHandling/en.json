@@ -1,0 +1,5 @@
+{
+  "title": "Something went wrong",
+  "default": "Failed to fetch data",
+  "401": "Your session has expired, Please try to login again"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "สินค้าทั้งหมด {total} ชิ้น",
+  "columns": {
+    "photo": "รูป",
+    "name": "ชื่อสินค้า",
+    "code": "รหัสสินค้า",
+    "variantOption": "SKU",
+    "price": "ราคาขาย"
+  }
+}

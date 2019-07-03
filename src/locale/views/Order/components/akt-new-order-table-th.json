@@ -1,0 +1,26 @@
+{
+  "column": {
+    "orderNo": "เลขออเดอร์",
+    "channel": "ออเดอร์จาก",
+    "sellDate": "วันที่ซื้อ",
+    "customerName": "ชื่อลูกค้า",
+    "warehouse": "คลัง",
+    "shippingName": "วิธีจัดส่ง",
+    "net": "ยอดรวม",
+    "state": "สถานะชำระเงิน"
+  },
+  "status": {
+    "confirmed": "ยังไม่ชำระเงิน",
+    "pending": "รอตรวจสอบ",
+    "paid": "ชำระเงินแล้ว",
+    "cancel": "ยกเลิก",
+    "void": "Void"
+  },
+  "action": {
+    "detail": "รายละเอียด",
+    "cancel": "ยกเลิก",
+    "void": "Void",
+    "shipment": "เตรียมจัดส่ง",
+    "close": "ปิดออเดอร์"
+  }
+}

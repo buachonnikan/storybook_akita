@@ -1,0 +1,21 @@
+{
+  "title": "Branch detail",
+  "subtitle": "Detail that would be appeared on an order receipt",
+  "form": {
+    "branchNo": "Branch No.",
+    "branchNoPlaceholder": "Branch No.",
+    "branchNoErrorMessage": "Please type, Branch No.",
+    "name": "Branch name",
+    "taxNo": "Tax ID",
+    "warehouse": "Warehouse",
+    "warehousePlaceholder": "Choose warehouse",
+    "address": "Address",
+    "addressPlaceholder": "Address",
+    "subDistrict": "Sub-district",
+    "district": "District",
+    "stateProvince": "State province",
+    "postcode": "Postcode",
+    "placeholder": "{field}",
+    "errorMessage": "Please type, {field}"
+  }
+}

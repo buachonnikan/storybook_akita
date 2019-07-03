@@ -1,0 +1,30 @@
+{
+  "header": "Set seller",
+  "save": "Save",
+  "cancle": "Cancle",
+  "titleCreate": "Add seller",
+  "titleEdit": "Edit seller",
+  "subTitle": "This information will be used to create seller reports to the Commission.",
+  "form": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "branch": "Branch",
+    "placeholderFirstName": "Please enter a first name",
+    "placeholderLastName": "Please enter a last name",
+    "placeholderEmail": "Please enter email address",
+    "placeholderBranch": "Please enter the branch",
+    "addBranch": "Add branch"
+  },
+  "error": {
+    "firstName": "Please enter a valid first name",
+    "lastName": "Please enter a valid last name",
+    "email": "Please enter the email address is correct",
+    "branch": "Please select a branch"
+  },
+  "alert": {
+    "success": "Save data successfully",
+    "error": "Failed to save data",
+    "button": "OK"
+  }
+}

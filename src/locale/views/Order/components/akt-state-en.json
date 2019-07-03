@@ -1,0 +1,11 @@
+{
+  "state": {
+    "unpaid": "Unpaid",
+    "pending": "Pending",
+    "paid": "Paid",
+    "cancel": "Cancel",
+    "void": "Void",
+    "shipped": "Success",
+    "ready_to_fulfillment": "Processing"
+  }
+}

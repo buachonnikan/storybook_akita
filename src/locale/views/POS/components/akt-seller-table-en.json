@@ -1,0 +1,8 @@
+{
+  "column": {
+    "cashier": "Seller name",
+    "email": "Email",
+    "branch": "Branch",
+    "action": "Action"
+  }
+}

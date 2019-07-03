@@ -1,0 +1,31 @@
+{
+  "header": "Setting a POS",
+  "save": "Save",
+  "cancle": "Cancle",
+  "titleCreate": "Add POS",
+  "titleEdit": "Edit POS",
+  "form": {
+    "posNo": "POS No",
+    "placeholderPosNo": "Please select a POS",
+    "branch": "Branch",
+    "placeholderBranch": "Select a branch",
+    "warehouse": "Deduct product from warehouse"
+  },
+  "error": {
+    "posNo": "Please enter POS No",
+    "branch": "Please enter branch"
+  },
+  "alert": {
+    "title": {
+      "success": "Save data successfully",
+      "error": "Failed to save data"
+    },
+    "text": {
+      "successCreate": "Added {name} success",
+      "successEdit": "Edited {name} success"
+    },
+    "button": {
+      "OK": "OK"
+    }
+  }
+}

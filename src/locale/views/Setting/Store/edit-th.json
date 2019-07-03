@@ -1,0 +1,29 @@
+{
+  "title": "ข้อมูลร้านค้า",
+  "form": {
+    "name": "ชื่อร้านค้า",
+    "address": "ที่อยู่",
+    "subDistrict": "ตำบล / แขวง",
+    "district": "อำเภอ / เขต",
+    "stateProvince": "จังหวัด",
+    "postcode": "รหัสไปรษณีย์",
+    "tel": "เบอร์โทรศัพท์",
+    "vatIncluded" : "ภาษีมูลค่าเพิ่ม"
+  },
+  "placeholder": "ระบุ {field}",
+  "placeholderAddress": "ระบุ ที่อยู่ ( ชื่ออาคาร , เลขที่ , ถนน , ซอย )",
+  "error": "กรุณาระบุ {field}",
+  "button": {
+    "cancel": "ยกเลิก",
+    "submit": "ตกลง"
+  },
+  "alert": {
+    "title": {
+      "success": "บันทึกข้อมูลสำเร็จ",
+      "error": "บันทึกข้อมูลไม่สำเร็จ"
+    },
+    "button": {
+      "OK": "ตกลง"
+    }
+  }
+}

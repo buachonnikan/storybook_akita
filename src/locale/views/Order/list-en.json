@@ -1,0 +1,26 @@
+{
+  "title": "Orders",
+  "orderColumn": {
+    "new": "New Order",
+    "prepareShipment": "Prepare Shipment",
+    "sent": "Sent",
+    "closed": "Closed"
+  },
+  "show": "Show",
+  "list": "list",
+  "pagination": "Show {first} - {last} from {total} list",
+  "alert": {
+    "edit": {
+      "cancel": {
+        "title": "Cancel Order Confirmation",
+        "text": "Do you want to cancel this order, <span class=\"text-primary\">{orderNo}</span>?"
+      },
+      "void": {
+        "title": "Void Confirmation",
+        "text": "Do you want to void this order, <span class=\"text-primary\">{orderNo}</span>?"
+      }
+    },
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  }
+}

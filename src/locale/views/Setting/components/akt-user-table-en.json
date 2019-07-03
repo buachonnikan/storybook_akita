@@ -1,0 +1,12 @@
+{
+  "column": {
+    "name": "Name",
+    "email": "Email",
+    "tel": "Tel"
+  },
+  "permission": {
+    "admin": "Admin",
+    "cashier": "Cashier",
+    "owner": "Owner"
+  }
+}

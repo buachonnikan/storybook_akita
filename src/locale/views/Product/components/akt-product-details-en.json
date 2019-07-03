@@ -1,0 +1,19 @@
+{
+  "title": "Product details",
+  "form": {
+    "vat": "VAT",
+    "price": "Price",
+    "excludeVat": "Excluding vat",
+    "cost": "Cost",
+    "barcode": "Barcode",
+    "placeholderBarcode": "Barcode number",
+    "brand": "Brand",
+    "placeholderBrand": "Brand name",
+    "tag": "Tag",
+    "placeholderTag": "Such as best selling, promotion"
+  },
+  "error": {
+    "price": "The price field is required",
+    "cost": "The price field is required"
+  }
+}

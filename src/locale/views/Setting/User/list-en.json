@@ -1,0 +1,31 @@
+{
+  "title": "User",
+  "addUser": "Add User",
+  "permission": {
+    "admin": "Admin",
+    "cashier": "Cashier"
+  },
+  "createInviteUrl": "Create Invitation URL",
+  "invitation": "Invitations",
+  "user": "User",
+  "searchUserPlaceholder": "Search Admin",
+  "pagination": "Represent {first} - {last} from {total} items",
+  "alert": {
+    "delete": {
+      "invitation": {
+        "title": "Delete Confirmation",
+        "text": "Do you want to delete this invitation?",
+        "successTitle": "Success !",
+        "successText": "You have deleted this invitation successfully."
+      },
+      "userStore": {
+        "title": "Delete Confirmation",
+        "text": "Do you want to delete this user, {name}?",
+        "successTitle": "Success !",
+        "successText": "You have deleted this user successfully."
+      }
+    },
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  }
+}

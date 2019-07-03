@@ -1,0 +1,10 @@
+{
+  "title": "All Products {total} items",
+  "columns": {
+    "photo": "Photo",
+    "name": "Name",
+    "code": "Code",
+    "variantOption": "SKU",
+    "price": "Price"
+  }
+}

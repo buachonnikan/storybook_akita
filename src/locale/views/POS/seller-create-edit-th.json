@@ -1,0 +1,30 @@
+{
+  "header": "ตั้งค่าพนักงานขาย",
+  "save": "บันทึก",
+  "cancle": "ยกเลิก",
+  "titleCreate": "เพิ่มพนักงานขาย",
+  "titleEdit": "แก้ไขพนักงานขาย",
+  "subTitle": "ข้อมูลส่วนนี้จะถูกนำไปใช้ในการสร้างรายงานการขาย เพื่อการคิดค่า Commission",
+  "form": {
+    "firstName": "ชื่อ",
+    "lastName": "นามสกุล",
+    "email": "อีเมล",
+    "branch": "สาขา",
+    "placeholderFirstName": "ระบุชื่อ",
+    "placeholderLastName": "ระบุนามสกุล",
+    "placeholderEmail": "ระบุอีเมล",
+    "placeholderBranch": "ระบุสาขา",
+    "addBranch": "เพิ่มสาขา"
+  },
+  "error": {
+    "firstName": "กรุณาระบุชื่อ",
+    "lastName": "กรุณาระบุนามสกุล",
+    "email": "กรุณาระบุอีเมลให้ถูกต้อง",
+    "branch": "กรุณาเลือกสาขา"
+  },
+  "alert": {
+    "success": "บันทึกข้อมูลสำเร็จ",
+    "error": "บันทึกข้อมูลไม่สำเร็จ",
+    "button": "ตกลง"
+  }
+}

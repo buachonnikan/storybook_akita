@@ -1,0 +1,14 @@
+{
+  "title": "รายการสินค้า",
+  "discount": "ส่วนลด",
+  "itemsDiscount": "ส่วนลดต่อชิ้นรวม",
+  "orderDiscount": "ส่วนลดพิเศษ",
+  "vat": "VAT",
+  "net": "ราคาสุทธิ",
+  "payment": "ชำระ",
+  "change": "ทอน",
+  "storeName": "ร้าน {name}",
+  "branchName": "สาขา {name}",
+  "receipt": "ใบเสร็จรับเงิน / ใบกำกับภาษีอย่างย่อ",
+  "cashier": "แคชเชียร์"
+}

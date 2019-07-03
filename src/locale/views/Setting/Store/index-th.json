@@ -1,0 +1,18 @@
+{
+  "title": "ข้อมูลร้านค้า",
+  "form": {
+    "storeName": "ชื่อร้านค้า",
+    "addressShipment": "ที่อยู่เพื่อใช้ในการจัดส่งสินค้า",
+    "address": "ที่อยู่",
+    "vatIncluded": "ภาษีมูลค่าเพิ่ม",
+    "isBkk": {
+      "subDistrict": "แขวง",
+      "district": "เขต"
+    },
+    "isNotBkk": {
+      "subDistrict": "ตำบล",
+      "district": "อำเภอ"
+    },
+    "stateProvince": "จังหวัด"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "จัดการผู้ใช้งาน",
+  "subtitle": "แก้ไขข้อมูล",
+  "form": {
+    "firstName": "ชื่อ",
+    "lastName": "นามสกุล",
+    "tel": "เบอร์โทรศัพท์",
+    "email": "Email",
+    "placeholder": "ระบุ {field}",
+    "errorMessage": "กรุณาระบุ {field}"
+  },
+  "permission": {
+    "title": "บทบาทในร้าน",
+    "admin": "Admin",
+    "cashier": "แคชเชียร์",
+    "owner": "เจ้าของร้าน"
+  },
+  "cancel": "ยกเลิก",
+  "submit": "บันทึก",
+  "alert": {
+    "title": "บันทึกข้อมูลสำเร็จ",
+    "text": "แก้ไขข้อมูลผู้ใช้งาน",
+    "confirm": "ยืนยัน"
+  }
+}

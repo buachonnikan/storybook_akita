@@ -1,0 +1,18 @@
+{
+  "column": {
+    "orderNo": "เลขออเดอร์",
+    "channel": "ออเดอร์จาก",
+    "shippedAt": "วันที่ส่งเสร็จแล้ว",
+    "customerAddressName": "ชื่อ - ที่อยู่ลูกค้า",
+    "net": "ยอดรวม",
+    "state": "สถานะชำระเงิน",
+    "shipped": "ส่งแล้ว"
+  },
+  "action": {
+    "detail": "รายละเอียด",
+    "cancel": "ยกเลิก",
+    "void": "Void",
+    "shipment": "เตรียมจัดส่ง",
+    "close": "ปิดออเดอร์"
+  }
+}

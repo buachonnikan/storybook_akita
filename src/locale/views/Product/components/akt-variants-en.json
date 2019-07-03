@@ -1,0 +1,6 @@
+{
+  "form": {
+    "addTypeProduct": "Add item type",
+    "addTypeDetail": "Specifies the name of the item type, such as color, size"
+  }
+}

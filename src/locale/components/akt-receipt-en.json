@@ -1,0 +1,14 @@
+{
+  "title": "Product list",
+  "discount": "Discount",
+  "itemsDiscount": "Discount by item",
+  "orderDiscount": "Order discount",
+  "vat": "VAT",
+  "net": "Net",
+  "payment": "Payment",
+  "change": "Change",
+  "storeName": "{name}",
+  "branchName": "{name}",
+  "receipt": "Order Receipt / ABB",
+  "cashier": "Cashier"
+}

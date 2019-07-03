@@ -1,0 +1,18 @@
+{
+  "column": {
+    "orderNo": "เลขออเดอร์",
+    "channel": "ออเดอร์จาก",
+    "prepareShipmentAt": "วันที่เตรียมสั่ง",
+    "customerAddressName": "ชื่อ - ที่อยู่ลูกค้า",
+    "shippingNo": "เลขจัดส่ง",
+    "warehouse": "คลัง",
+    "state": "สถานะ"
+  },
+  "action": {
+    "detail": "รายละเอียด",
+    "cancel": "ยกเลิก",
+    "void": "Void",
+    "shipment": "เตรียมจัดส่ง",
+    "close": "ปิดออเดอร์"
+  }
+}

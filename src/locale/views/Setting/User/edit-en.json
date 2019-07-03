@@ -1,0 +1,25 @@
+{
+  "title": "User",
+  "subtitle": "Edit information",
+  "form": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "tel": "Tel",
+    "email": "Email",
+    "placeholder": "{field}",
+    "errorMessage": "Please type, {field}"
+  },
+  "permission": {
+    "title": "Permission",
+    "admin": "Admin",
+    "cashier": "Cashier",
+    "owner": "Owner"
+  },
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "alert": {
+    "title": "Success !",
+    "text": "You have editted this user successfully.",
+    "confirm": "ยืนยัน"
+  }
+}

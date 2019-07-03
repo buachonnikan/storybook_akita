@@ -1,0 +1,12 @@
+{
+  "column": {
+    "name": "ชื่อ",
+    "email": "Email",
+    "tel": "เบอร์ติดต่อ"
+  },
+  "permission": {
+    "admin": "Admin",
+    "cashier": "แคชเชียร์",
+    "owner": "เจ้าของร้าน"
+  }
+}

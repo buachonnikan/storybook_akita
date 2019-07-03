@@ -1,0 +1,9 @@
+{
+  "title": "Payment",
+  "status": {
+    "confirmed": "Not Paid",
+    "pending": "Pending",
+    "paid": "Paid",
+    "void": "Void"
+  }
+}

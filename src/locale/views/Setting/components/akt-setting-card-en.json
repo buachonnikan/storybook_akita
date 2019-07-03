@@ -1,0 +1,10 @@
+{
+  "sidebarItem": {
+    "store": "Store",
+    "payment": "Payment",
+    "shipping": "Shipping",
+    "user": "User",
+    "info": "Akita Info",
+    "language": "Language"
+  }
+}

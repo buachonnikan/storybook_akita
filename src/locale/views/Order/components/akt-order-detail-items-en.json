@@ -1,0 +1,16 @@
+{
+  "orderNo": "Order No.",
+  "createdAt": "Created At",
+  "updatedAt": "Last Update",
+  "channel": "Channel",
+  "no": "No.",
+  "product": "Product",
+  "quantity": "Quantity",
+  "price": "Price",
+  "total": "Total",
+  "shippingCharge": "Shipping Charge",
+  "discount": "Discount",
+  "vat": "VAT",
+  "included": "Included",
+  "net": "Net"
+}

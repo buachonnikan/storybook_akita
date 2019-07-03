@@ -1,0 +1,38 @@
+{
+  "title": "Point of Sale systems (POS)",
+  "button": {
+    "accessPos": "Access POS",
+    "add": "Add"
+  },
+  "card": {
+    "branchTitle": "Set up branch in branch/receipt",
+    "unitTitle": "Set up a POS",
+    "cashierTitle": "Setting a cashier",
+    "sellerTitle": "Setting a seller"
+  },
+  "alert": {
+    "title": {
+      "success": "Save data successfully",
+      "error": "Failed to save data",
+      "delete": {
+        "branch": "Confirm the delete branch",
+        "unit": "Confirm deletion of a POS",
+        "cashier": "Confirm deletion of a cashier",
+        "seller": "Confirm deletion of a seller"
+      }
+    },
+    "text": {
+      "delete": {
+        "branch": "Want to delete the {branch} {warehouse} ?",
+        "unit": "Want to delete {posUnit} from {branch} ?",
+        "cashier": "Want to remove {name} cashier ?",
+        "seller": "Want to remove {name} seller ?"
+      }
+    },
+    "button": {
+      "buttonOK": "OK",
+      "buttonConfirm": "Confirm",
+      "buttonCancel": "Cancel"
+    }
+  }
+}

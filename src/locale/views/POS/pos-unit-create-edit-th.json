@@ -1,0 +1,31 @@
+{
+  "header": "ตั้งค่าเครื่อง POS",
+  "save": "บันทึก",
+  "cancle": "ยกเลิก",
+  "titleCreate": "เพิ่มเครื่อง POS",
+  "titleEdit": "แก้ไขเครื่อง POS",
+  "form": {
+    "posNo": "POS No",
+    "placeholderPosNo": "ระบุ POS No",
+    "branch": "สาขา",
+    "placeholderBranch": "เลือกสาขา",
+    "warehouse": "ตัดสินค้าจากคลัง"
+  },
+  "error": {
+    "posNo": "กรุณาระบุ POS No",
+    "branch": "กรุณาระบุสาขา"
+  },
+  "alert": {
+    "title": {
+      "success": "บันทึกข้อมูลสำเร็จ",
+      "error": "บันทึกข้อมูลไม่สำเร็จ"
+    },
+    "text": {
+      "successCreate": "เพิ่มเครื่อง {name} สำเร็จ",
+      "successEdit": "แก้ไขเครื่อง {name} สำเร็จ"
+    },
+    "button": {
+      "OK": "ตกลง"
+    }
+  }
+}

@@ -99,7 +99,7 @@ export default {
     }
   },
   mounted () {
-    // this.cbId = randomString()
+    this.cbId = 'test'
   }
 }
 </script>

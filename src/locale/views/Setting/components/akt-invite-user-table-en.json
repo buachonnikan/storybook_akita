@@ -1,0 +1,18 @@
+{
+  "column": {
+    "role": "Role",
+    "createdAt": "Created At",
+    "expiredAt": "Expired At",
+    "key": "Key"
+  },
+  "permission": {
+    "admin": "Admin",
+    "cashier": "Cashier"
+  },
+  "copyKey": {
+    "button": "Copy invitation link",
+    "success": "Success! You have copied an invitation link.",
+    "error": "Cannot copy link",
+    "expired": "Link was expired"
+  }
+}
