@@ -1,7 +1,8 @@
 {
-  "name": "akt-input",
+  "name": "@bua/akt-input",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "c84a1e1340ac9eed8bd080aaccebdfd44b7f2e61"
 }
