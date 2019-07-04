@@ -1,0 +1,9 @@
+{
+    "name": "@akita_storybook/akt-input-tag",
+    "version": "0.4.0",
+    "publishConfig": {
+      "access": "public"
+    },
+    "gitHead": "5a617617fdd4beaad5391b9b0f2f1cd9f51a3532"
+  }
+  
