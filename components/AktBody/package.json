@@ -1,8 +1,7 @@
 {
-    "name": "@akita_storybook/akt-body",
-    "version": "0.0.0",
-    "publishConfig": {
-      "access": "public"
-    }
+  "name": "@akita_storybook/akt-body",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
   }
-  
+}
