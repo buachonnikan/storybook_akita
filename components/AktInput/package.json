@@ -1,5 +1,5 @@
 {
-  "name": "@bua/akita/akt-input",
+  "name": "@bua/akita_storybook/akt-input",
   "version": "0.3.0",
   "publishConfig": {
     "access": "public"
