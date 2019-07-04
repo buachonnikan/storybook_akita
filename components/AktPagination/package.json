@@ -1,0 +1,8 @@
+{
+    "name": "@akita_storybook/akt-pagiantion",
+    "version": "0.1.0",
+    "publishConfig": {
+      "access": "public"
+    }
+}
+  
