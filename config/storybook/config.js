@@ -14,7 +14,7 @@ export const i18n = new VueI18n({
 })
 
 // automatically import all files ending in *.stories.js
-const req = require.context('@/oms/components', true, /\.stories\.js$/)
+const req = require.context('../../components', true, /\.stories\.js$/)
 function loadStories () {
   req.keys().forEach(filename => req(filename))
 }
