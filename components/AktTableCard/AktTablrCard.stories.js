@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, text } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-import AktTableCard from './AktTableCard.vue'
+import AktTableCard from '@akita_component/akt-table-card/AktTableCard.vue'
 
 const stories = storiesOf('AktTableCard', module)
 

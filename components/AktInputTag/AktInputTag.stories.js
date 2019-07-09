@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, text, boolean, array } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-import AktInputTag from './AktInputTag.vue'
+import AktInputTag from '@akita_component/akt-input-tag/AktInputTag.vue'
 
 const stories = storiesOf('AktInputTag', module)
 

@@ -4,8 +4,9 @@ import { withInfo } from 'storybook-addon-vue-info'
 // import VueI18n from 'vue-i18n'
 import i18n from '@/locale'
 
-import AktSidebarItem from './AktSidebarItem.vue'
+// import AktSidebarItem from './AktSidebarItem.vue'
 // import locale from '../../../locale'
+import AktSidebarItem from '@akita_component/akt-sidebar-item/AktSidebarItem.vue'
 
 const stories = storiesOf('AktSidebarItem', module)
 

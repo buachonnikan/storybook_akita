@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, number, select } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-import AktPagination from './AktPagination.vue'
+import AktPagination from '@akita_component/akt-pagination/AktPagination.vue'
 
 const stories = storiesOf('AktPagination', module)
 

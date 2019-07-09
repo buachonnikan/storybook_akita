@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, boolean } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-import AktOverlay from './AktOverlay.vue'
+import AktOverlay from '@akita_component/akt-overlay/AktOverlay.vue'
 
 const stories = storiesOf('AktOverlay', module)
 

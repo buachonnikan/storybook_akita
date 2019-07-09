@@ -2,7 +2,8 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, text, boolean } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-import AktCheckbox from './AktCheckbox.vue'
+// import AktCheckbox from './AktCheckbox.vue'
+import AktCheckbox from '@akita_component/akt-checkbox/AktCheckbox.vue'
 
 const stories = storiesOf('AktCheckbox', module)
 
