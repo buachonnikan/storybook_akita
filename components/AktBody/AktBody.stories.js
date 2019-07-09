@@ -2,7 +2,6 @@ import { storiesOf } from '@storybook/vue'
 import { withKnobs, text } from '@storybook/addon-knobs'
 import { withInfo } from 'storybook-addon-vue-info'
 
-// import AktBody from './AktBody.vue'
 import AktBody from '@akita_component/akt-body/AktBody.vue'
 
 const stories = storiesOf('AktBody', module)
@@ -19,7 +18,6 @@ stories.add('Body', () => ({
   template: `<akt-body :label="label"></akt-body>`,
   propsDescription: {
     AktBody: {
-
     }
   }
 }),
