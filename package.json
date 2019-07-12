@@ -15,7 +15,7 @@
     "@akita_component/akt-input": "^0.1.0",
     "@akita_component/akt-input-tag": "^0.1.0",
     "@akita_component/akt-overlay": "^0.1.0",
-    "@akita_component/akt-pagination": "^0.1.0",
+    "@akita_component/akt-pagination": "^0.2.0",
     "@akita_component/akt-sidebar-item": "^0.1.0",
     "@akita_component/akt-table-card": "^0.1.0",
     "bootstrap": "^4.3.1",

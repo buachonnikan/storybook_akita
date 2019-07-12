@@ -7,15 +7,15 @@
       :perPage="perPage"
       :total="total"
       :value="value"
-      @ttt="onChangePage">
+      @input="onChangePage">
     </akt-pagination>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import AktInput from '@/oms/components/AktInput/AktInput.vue'
-import AktPagination from '@/oms/components/AktPagination/AktPagination.vue'
+import AktInput from '@akita_component/akt-input/AktInput.vue'
+import AktPagination from '@akita_component/akt-pagination/AktPagination.vue'
 
 export default {
   name: 'about',
