@@ -9,6 +9,29 @@
       :value="value"
       @input="onChangePage">
     </akt-pagination>
+    <akt-input>
+      <select
+        name="branch"
+        class="form-control border-0"
+        @change="onChangeBranch">
+        <option
+          value=""
+          disabled
+          selected>
+          <!-- {{ $t('choosePosBranch.placeholder.branch') }} -->select
+        </option>
+        <option v-for="(item, index) of [{name:'yay1'},{name:'yay2'}]"
+          :key="index"
+          :value="item">
+          {{ item.name }}
+        </option>
+      </select>
+    </akt-input>
+    <select-option
+    :options="branches"
+    placeholder="SELECT"
+    @change="onChangeBranch"
+    ></select-option>
   </div>
 </template>
 
@@ -16,19 +39,22 @@
 // @ is an alias to /src
 import AktInput from '@akita_component/akt-input/AktInput.vue'
 import AktPagination from '@akita_component/akt-pagination/AktPagination.vue'
+import SelectOption from '../../components/SelectOption/SelectOption.vue'
 
 export default {
   name: 'about',
   components: {
     AktInput,
-    AktPagination
+    AktPagination,
+    SelectOption
   },
   data () {
     return {
       test: true,
       value: 1,
       total: 10,
-      perPage: 1
+      perPage: 1,
+      branches: [{ name: 'Option1' }, { name: 'Option2' }]
     }
   },
   methods: {
@@ -38,6 +64,10 @@ export default {
     onChangePage (page) {
       this.value = page
       console.log(page)
+    },
+    onChangeBranch (option) {
+      this.value = option
+      console.log(option)
     }
   }
 }
