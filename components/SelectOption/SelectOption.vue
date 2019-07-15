@@ -44,9 +44,8 @@ export default {
     }
   },
   methods: {
-    onChangeBranch (option) {
-      this.value = option
-      console.log(option)
+    onChangeBranch (select) {
+      this.$emit('branch', select.target.value)
     }
   }
 }
@@ -68,11 +67,6 @@ export default {
         right:19px;
         z-index: 1;
         color: #C4C4C4;
-    }
-    .option{
-        height: 100px;
-        border:3px solid black;
-        padding: 8px 16px;
     }
 </style>
 >

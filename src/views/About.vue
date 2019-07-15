@@ -9,24 +9,6 @@
       :value="value"
       @input="onChangePage">
     </akt-pagination>
-    <akt-input>
-      <select
-        name="branch"
-        class="form-control border-0"
-        @change="onChangeBranch">
-        <option
-          value=""
-          disabled
-          selected>
-          <!-- {{ $t('choosePosBranch.placeholder.branch') }} -->select
-        </option>
-        <option v-for="(item, index) of [{name:'yay1'},{name:'yay2'}]"
-          :key="index"
-          :value="item">
-          {{ item.name }}
-        </option>
-      </select>
-    </akt-input>
     <select-option
     :options="branches"
     placeholder="SELECT"
